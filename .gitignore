@@ -1,7 +1,41 @@
+# Python
 # Byte-compiled / optimized / DLL files
 __pycache__/
+*.py[cod]
+*.egg-info/
 *.py[codz]
 *$py.class
+dist/
+build/
+.eggs/
+
+# 가상환경
+.venv/
+venv/
+env/
+
+# 로컬 Claude Code 설정 (개인 설정, 커밋 제외)
+CLAUDE.local.md
+.claude/settings.local.json
+
+# 자동 생성 파일
+reports/
+logs/
+*.png
+*.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# 테스트 커버리지
+.coverage
+htmlcov/
+.pytest_cache/
+
+# macOS
+.DS_Store
 
 # C extensions
 *.so
