@@ -1,6 +1,6 @@
 # Stock Trader
 
-built by Claude Code
+Stock Trading agents built by Claude Code
 
 ## 구성
 
